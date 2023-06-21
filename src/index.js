@@ -329,11 +329,7 @@ export default class Gantt {
     }
 
     make_grid_rows() {
-        let counter_rows = 0;
         const distinctRows = [...new Set(this.tasks.map(x => x.row_id))];
-        for (let row of distinctRows){
-            counter_rows = counter_rows + 1;
-        }
 
         const rows_layer = createSVG('g', { append_to: this.layers.grid });
         const lines_layer = createSVG('g', { append_to: this.layers.grid });
@@ -343,7 +339,6 @@ export default class Gantt {
         let row_y = this.options.header_height + this.options.padding / 2;
 
         for (let row of distinctRows) {
-
             createSVG('rect', {
                 x: 0,
                 y: row_y,
