@@ -33,6 +33,7 @@ And start hacking:
 var tasks = [
   {
     id: 'Task 1',
+    row_id: 1,
     name: 'Redesign website',
     start: '2016-12-28',
     end: '2016-12-31',
