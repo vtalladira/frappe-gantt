@@ -4,9 +4,8 @@
     <p align="center">
         <p>A simple, interactive, modern gantt chart library for the web</p>
         <p>This is a fork that adds a `row_id` which allows inline tasks</p>
-        <a href="https://frappe.github.io/gantt">
+        <a href="https://github.com/frappe/gantt/issues/95">
             <b>Code pretty much copied from this GitHub issue</b>
-            <a href="https://github.com/frappe/gantt/issues/95"></a>
         </a>
     </p>
 </div>
